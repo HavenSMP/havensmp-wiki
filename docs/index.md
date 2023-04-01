@@ -1,5 +1,5 @@
 ---
-id: my-home-doc
+id: doc-overview
 slug: /
 sidebar_position: 1
 title: Documentation Overview
