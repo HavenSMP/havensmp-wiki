@@ -1,41 +1,74 @@
-# Website
+# Format
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+To contribute to our docs, you must follow the format below.
 
-### Installation
+    ---
+    id: <id>
+    title: <title>
+    description: <description>
+    keywords: <keywords>
+    ---
+   Please note that `description` and `keywords` are **not required**, but we encourage you to use these for SEO purposes.
+   
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+## Example #1
+Using `description` and `keywords`.
 
 ```
-$ yarn build
+---
+id: my-doc-page
+title: My Doc Page
+description: This is my fancy doc page!
+keywords: my,doc,page
+---
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+## Example #2
+Without `description` and `keywords`.
 
 ```
-$ USE_SSH=true yarn deploy
+---
+id: my-doc-page
+title: My Doc Page
+---
 ```
 
-Not using SSH:
+# Sidebar
+After creating a page, you'll need to add it in `sidebar.js`, under an existing or new category. All category folders and doc files are stored in `/docs/`.
 
+## Using an existing category
+Adding your page to an existing category is a case of just adding one line. See the example below.
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+{
+	type: 'category',
+	label: 'Category #1',
+	collapsible: true,
+	collapsed: true,
+	items: [
+		'category-1/doc-1',
+		'category-1/doc-b',
+		'category-1/doc-c',
+		'folder-name/your-file',
+	],
+},
 ```
+To keep our directory clean and tidy, please ensure your file is under the relevant category folder in the `/docs/` directory. **You do not need to add `.md` to the end of your entry.**
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Using a new category
+If existing categories are not relevant, you can add a new category using the example below.
+```
+{
+	type: 'category',
+	label: 'Category Name',
+	collapsible: true,
+	collapsed: true,
+	items: [
+		'folder-name/your-file',
+	],
+},
+```
+Please ensure you have created a new folder in `/docs/` and stored your new file inside. The folder name should correspond with the `label` you have set above, for ease of reference. **You do not need to add `.md` to the end of your entry.**
+
+# Support
+If you have any problems, please reach out to us on our [**Discord**](https://discord.gg/Aqzwbng4mc). Only open GitHub issues for **technical-related problems**.
+
