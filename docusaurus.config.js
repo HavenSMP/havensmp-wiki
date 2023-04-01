@@ -40,8 +40,6 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          path: 'docs',
-          disable: true,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
