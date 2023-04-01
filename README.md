@@ -1,20 +1,21 @@
 # Format
 
 To contribute to our docs, you must follow the format below.
-
+```yaml
     ---
     id: <id>
     title: <title>
     description: <description>
     keywords: <keywords>
     ---
+```
    Please note that `description` and `keywords` are **not required**, but we encourage you to use these for SEO purposes.
    
 
 ## Example #1
 Using `description` and `keywords`.
 
-```
+```yaml
 ---
 id: my-doc-page
 title: My Doc Page
@@ -26,7 +27,7 @@ keywords: my,doc,page
 ## Example #2
 Without `description` and `keywords`.
 
-```
+```yaml
 ---
 id: my-doc-page
 title: My Doc Page
@@ -38,7 +39,7 @@ After creating a page, you'll need to add it in `sidebar.js`, under an existing 
 
 ## Using an existing category
 Adding your page to an existing category is a case of just adding one line. See the example below.
-```
+```js
 {
 	type: 'category',
 	label: 'Category #1',
@@ -56,7 +57,7 @@ To keep our directory clean and tidy, please ensure your file is under the relev
 
 ## Using a new category
 If existing categories are not relevant, you can add a new category using the example below.
-```
+```js
 {
 	type: 'category',
 	label: 'Category Name',
@@ -71,4 +72,3 @@ Please ensure you have created a new folder in `/docs/` and stored your new file
 
 # Support
 If you have any problems, please reach out to us on our [**Discord**](https://discord.gg/Aqzwbng4mc). Only open GitHub issues for **technical-related problems**.
-
