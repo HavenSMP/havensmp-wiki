@@ -33,7 +33,7 @@ const sidebars = {
         'tutorial-basics/create-a-document',
         'tutorial-basics/create-a-blog-post',
         'tutorial-basics/congratulations',
-       'tutorial-basics/eagles-edit',
+       'tutorial-basics/eagle-edit',
       ],
     },
     {
