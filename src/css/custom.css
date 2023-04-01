@@ -44,6 +44,14 @@ html[data-theme=dark] {
   --ifm-background-surface-color: #1d1d22;
 }
 
+@media (min-width: 997px) {
+  
+  .docSidebarContainer_b6E3 {
+    border-right: 0;
+  }
+  
+}
+
 
 .pagination-nav{
   display:none;
