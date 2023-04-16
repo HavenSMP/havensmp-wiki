@@ -24,7 +24,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Category #1',
+      label: 'Mechanical Changes',
       collapsible: true,
       collapsed: true,
       items: [
@@ -38,7 +38,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Category #2',
+      label: 'Plugin Tutorials',
       collapsible: true,
       collapsed: true,
       items: [
