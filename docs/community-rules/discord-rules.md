@@ -5,7 +5,6 @@ title: Discord Rules
 
 ![HavenSMP Logo](https://i.imgur.com/RH8Bwtu.png)
 
-# Discord Rules
 Our Discord rules are in place to ensure that every user can enjoy a **safe** and **equal** environment. To use our Discord, you must follow these rules at all times.
 
 ## 1. Respect Others
