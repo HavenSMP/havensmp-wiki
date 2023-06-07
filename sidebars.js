@@ -22,6 +22,16 @@ const sidebars = {
       label: 'Documentation Overview',
       id: 'doc-overview'
     },
+   {
+      type: 'category',
+      label: 'Community Rules',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        'community-rules/discord-rules',
+        'community-rules/server-rules',
+      ],
+    },
     {
       type: 'category',
       label: 'Mechanical Changes',
