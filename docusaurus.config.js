@@ -95,10 +95,6 @@ const config = {
             position: 'right',
           },
         ],
-        metadata: [
-          {name: 'keywords', content: 'minecraft,docs,smp,survival'},
-          {name: 'twitter:card', content: 'http://haven-smp.net/wp-content/uploads/2024/03/haven_background_embeds.png'},
-        ],
       },
       // footer: {
       //   style: 'dark',
