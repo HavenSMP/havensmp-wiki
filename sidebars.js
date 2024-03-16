@@ -41,15 +41,6 @@ const sidebars = {
         'server-docs/proximity-chaT',
       ],
     },
-    {
-      type: 'category',
-      label: 'Plugin Tutorials',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'tutorial-extras/translate-your-site',
-      ],
-    },
   ],
 };
 
