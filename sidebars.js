@@ -34,25 +34,11 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Mechanical Changes',
+      label: 'Server Docs',
       collapsible: true,
       collapsed: true,
       items: [
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/congratulations',
-       'tutorial-basics/eagle-edit',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Plugin Tutorials',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'tutorial-extras/translate-your-site',
+        'server-docs/proximity-chat',
       ],
     },
   ],
