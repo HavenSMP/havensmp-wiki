@@ -38,7 +38,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'server-docs/proximity-chat',
+        'server-docs/proximity-chaT',
       ],
     },
   ],
