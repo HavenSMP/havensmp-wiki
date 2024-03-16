@@ -63,9 +63,13 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    metadata: [
+      {name: 'keywords', content: 'minecraft,smp,discord,docs,survival,vanilla'},
+      {name: 'twitter:card', content: 'http://haven-smp.net/wp-content/uploads/2024/03/haven_background_embeds.png'},
+    ],
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'http://haven-smp.net/wp-content/uploads/2024/03/haven_background_embeds.png',
       navbar: {
         title: 'HavenSMP Docs',
         logo: {
