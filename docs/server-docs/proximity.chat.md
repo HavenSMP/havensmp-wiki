@@ -6,7 +6,7 @@ title: Proximity Chat
 ## How to install
 1. To start, we'll need to install Fabric Loader. You can get that [here](https://fabricmc.net/use/installer/).
 2. Run the `exe`and take note of the `Launcher Location`. We'll need to eventually go here to place the voice chat mod.
-3. Now head over to [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?l=fabric&c=release) to install Simple Voice Chat. *Always select the latest version!*
+3. Now head over to [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?l=fabric&c=release) to install Simple Voice Chat. *Always select the latest RELEASE version!*
 4. You should now have `voicechat-fabric-1.20.4-2.4.32.jar` downloaded. This will need to go in the `/mods/` folder stored in your `.minecraft` folder. If you didn't remember your Launcher Location, by default this should be `C:\Users\[your name]\AppData\Roaming\.minecraft`. 
 5. Drag `voicechat-fabric-1.20.4-2.4.32.jar` into `/mods/`.
 6. All done! You can start your game but be sure to set the correct profile *(see screenshot below)*.
