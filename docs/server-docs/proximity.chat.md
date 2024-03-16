@@ -10,6 +10,7 @@ title: Proximity Chat
 4. You should now have `voicechat-fabric-1.20.4-2.4.32.jar` downloaded. This will need to go in the `/mods/` folder stored in your `.minecraft` folder. If you didn't remember your Launcher Location, by default this should be `C:\Users\[your name]\AppData\Roaming\.minecraft`. 
 5. Drag `voicechat-fabric-1.20.4-2.4.32.jar` into `/mods/`.
 6. All done! You can start your game but be sure to set the correct profile *(see screenshot below)*.
+   
 ![Profile](https://cloud.haven-smp.net/index.php/apps/files_sharing/publicpreview/9fbMsTDweGkcQBy?file=/&fileId=2845&x=1920&y=974&a=true&etag=aac567445ed7b751a64b2b56308c606e)
 
 > For all other installation methods, see [here](https://modrepo.de/minecraft/voicechat/wiki/installation).
