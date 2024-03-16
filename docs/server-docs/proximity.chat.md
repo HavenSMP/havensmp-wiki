@@ -1,6 +1,9 @@
 ---
 id: proximity-chat
 title: Proximity Chat
+description: How to install and use proximity chat
+image: a thumbnail image to be shown in social media cards](http://haven-smp.net/wp-content/uploads/2024/03/haven_background_embeds.png
+keywords: minecraft,docs,survival,smp,discord
 ---
 
 ## How to install
